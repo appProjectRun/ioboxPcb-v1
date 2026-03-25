@@ -13,7 +13,232 @@
 		(comment 2 "Draw By:Suwish.J")
 	)
 	(lib_symbols
-		(symbol "arduino-library-wit:Arduino_Due_Shield"
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "arduino-library-kidcad:Arduino_Mega2560_R3_Shield"
 			(pin_names
 				(offset 1.016)
 			)
@@ -32,7 +257,7 @@
 					)
 				)
 			)
-			(property "Value" "Arduino_Due_Shield"
+			(property "Value" "Arduino_Mega2560_R3_Shield"
 				(at 0 -66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,7 +267,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_arduino-library:Arduino_Due_Shield"
+			(property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
 				(at 0 -73.66 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +278,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://docs.arduino.cc/hardware/due"
+			(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
 				(at 0 -69.85 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +289,7 @@
 					)
 				)
 			)
-			(property "Description" "Shield for Arduino Due"
+			(property "Description" "Shield for Arduino Mega 2560 R3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +311,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Arduino_Due_Shield"
+			(property "ki_fp_filters" "Arduino_Mega2560_R3_Shield"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -97,7 +322,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Due_Shield_0_0"
+			(symbol "Arduino_Mega2560_R3_Shield_0_0"
 				(rectangle
 					(start -25.4 -58.42)
 					(end 25.4 58.42)
@@ -107,6 +332,18 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21.59 21.59) (xy -12.7 21.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -132,17 +369,6 @@
 					)
 				)
 				(rectangle
-					(start -19.05 16.51)
-					(end -12.7 16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -19.05 -19.05)
 					(end -12.7 -19.05)
 					(stroke
@@ -156,28 +382,6 @@
 				(rectangle
 					(start -19.05 -54.61)
 					(end -12.7 -54.61)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -17.78 24.13)
-					(end -16.51 24.13)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -17.78 21.59)
-					(end -16.51 21.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -211,28 +415,6 @@
 				(rectangle
 					(start -16.51 54.61)
 					(end -12.7 54.61)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -16.51 24.13)
-					(end -16.51 21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -16.51 22.86)
-					(end -13.97 22.86)
 					(stroke
 						(width 0)
 						(type default)
@@ -329,9 +511,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -12.7 16.51)
-					(end -12.7 3.81)
+				(polyline
+					(pts
+						(xy -12.7 6.35) (xy -12.7 21.59)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -340,9 +523,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -12.7 -6.35)
-					(end -12.7 -19.05)
+				(polyline
+					(pts
+						(xy -12.7 -19.05) (xy -12.7 -3.81)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -419,7 +603,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -54.61) (xy 20.32 -54.61)
+						(xy 12.7 54.61) (xy 16.51 54.61)
 					)
 					(stroke
 						(width 0)
@@ -431,7 +615,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 44.45) (xy 15.24 53.34) (xy 21.59 54.61)
+						(xy 12.7 -54.61) (xy 16.51 -54.61)
 					)
 					(stroke
 						(width 0)
@@ -443,7 +627,7 @@
 				)
 				(polyline
 					(pts
-						(xy 20.32 26.67) (xy 15.24 27.94) (xy 15.24 36.83)
+						(xy 15.24 44.45) (xy 15.24 53.34) (xy 16.51 54.61)
 					)
 					(stroke
 						(width 0)
@@ -455,7 +639,31 @@
 				)
 				(polyline
 					(pts
-						(xy 21.59 54.61) (xy 12.7 54.61)
+						(xy 15.24 36.83) (xy 15.24 27.94) (xy 20.32 26.67)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -34.29) (xy 16.51 -34.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -31.75) (xy 17.78 -33.02) (xy 17.78 -35.56) (xy 20.32 -36.83)
 					)
 					(stroke
 						(width 0)
@@ -481,16 +689,8 @@
 						)
 					)
 				)
-				(text "CAN"
-					(at -12.7 22.86 900)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
 				(text "Analog"
-					(at -12.7 -1.27 900)
+					(at -12.7 1.27 900)
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -529,8 +729,16 @@
 						)
 					)
 				)
+				(text "PWM"
+					(at 15.24 -34.29 900)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
 			)
-			(symbol "Arduino_Due_Shield_1_0"
+			(symbol "Arduino_Mega2560_R3_Shield_1_0"
 				(rectangle
 					(start 12.7 54.61)
 					(end 12.7 3.81)
@@ -562,7 +770,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_Due_Shield_1_1"
+			(symbol "Arduino_Mega2560_R3_Shield_1_1"
 				(pin power_out line
 					(at -33.02 -41.91 0)
 					(length 7.62)
@@ -654,7 +862,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 11.43 0)
+					(at -33.02 21.59 0)
 					(length 7.62)
 					(name "A0"
 						(effects
@@ -672,7 +880,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 8.89 0)
+					(at -33.02 19.05 0)
 					(length 7.62)
 					(name "A1"
 						(effects
@@ -690,7 +898,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 6.35 0)
+					(at -33.02 16.51 0)
 					(length 7.62)
 					(name "A2"
 						(effects
@@ -708,7 +916,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 3.81 0)
+					(at -33.02 13.97 0)
 					(length 7.62)
 					(name "A3"
 						(effects
@@ -726,7 +934,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 1.27 0)
+					(at -33.02 11.43 0)
 					(length 7.62)
 					(name "A4"
 						(effects
@@ -744,7 +952,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -1.27 0)
+					(at -33.02 8.89 0)
 					(length 7.62)
 					(name "A5"
 						(effects
@@ -762,7 +970,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -3.81 0)
+					(at -33.02 6.35 0)
 					(length 7.62)
 					(name "A6"
 						(effects
@@ -780,7 +988,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -6.35 0)
+					(at -33.02 3.81 0)
 					(length 7.62)
 					(name "A7"
 						(effects
@@ -798,7 +1006,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -8.89 0)
+					(at -33.02 1.27 0)
 					(length 7.62)
 					(name "A8"
 						(effects
@@ -816,7 +1024,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -11.43 0)
+					(at -33.02 -1.27 0)
 					(length 7.62)
 					(name "A9"
 						(effects
@@ -834,7 +1042,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -13.97 0)
+					(at -33.02 -3.81 0)
 					(length 7.62)
 					(name "A10"
 						(effects
@@ -852,7 +1060,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -33.02 -16.51 0)
+					(at -33.02 -6.35 0)
 					(length 7.62)
 					(name "A11"
 						(effects
@@ -862,6 +1070,78 @@
 						)
 					)
 					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -8.89 0)
+					(length 7.62)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -11.43 0)
+					(length 7.62)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -13.97 0)
+					(length 7.62)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -16.51 0)
+					(length 7.62)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,42 +1160,6 @@
 						)
 					)
 					(number "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 24.13 0)
-					(length 7.62)
-					(name "CANRX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CANR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 21.59 0)
-					(length 7.62)
-					(name "CANTX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CANT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -962,7 +1206,7 @@
 				(pin bidirectional line
 					(at 33.02 54.61 180)
 					(length 7.62)
-					(name "D2"
+					(name "D2_INT0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -980,7 +1224,7 @@
 				(pin bidirectional line
 					(at 33.02 52.07 180)
 					(length 7.62)
-					(name "D3"
+					(name "D3_INT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -998,7 +1242,7 @@
 				(pin bidirectional line
 					(at 33.02 49.53 180)
 					(length 7.62)
-					(name "D4_CS1"
+					(name "D4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1106,7 +1350,7 @@
 				(pin bidirectional line
 					(at 33.02 34.29 180)
 					(length 7.62)
-					(name "D10_CS0"
+					(name "D10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1826,7 +2070,7 @@
 				(pin bidirectional line
 					(at 33.02 -46.99 180)
 					(length 7.62)
-					(name "D50"
+					(name "D50_MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1844,7 +2088,7 @@
 				(pin bidirectional line
 					(at 33.02 -49.53 180)
 					(length 7.62)
-					(name "D51"
+					(name "D51_MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1859,10 +2103,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin bidirectional clock
 					(at 33.02 -52.07 180)
 					(length 7.62)
-					(name "D52_CS2"
+					(name "D52_SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1880,7 +2124,7 @@
 				(pin bidirectional line
 					(at 33.02 -54.61 180)
 					(length 7.62)
-					(name "D53"
+					(name "D53_CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1888,42 +2132,6 @@
 						)
 					)
 					(number "D53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 16.51 0)
-					(length 7.62)
-					(name "DAC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "DAC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -33.02 13.97 0)
-					(length 7.62)
-					(name "DAC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "DAC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2150,14 +2358,14 @@
 				(pin bidirectional clock
 					(at -33.02 26.67 0)
 					(length 7.62)
-					(name "SCL1"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SCL1"
+					(number "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2168,14 +2376,14 @@
 				(pin bidirectional line
 					(at -33.02 29.21 0)
 					(length 7.62)
-					(name "SDA1"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SDA1"
+					(number "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2206,8 +2414,8 @@
 		)
 	)
 	(symbol
-		(lib_id "arduino-library-wit:Arduino_Due_Shield")
-		(at 109.22 92.71 0)
+		(lib_id "arduino-library-kidcad:Arduino_Mega2560_R3_Shield")
+		(at 129.54 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2216,9 +2424,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76ff496a-e895-4833-836c-1508c6213b14")
+		(uuid "29c53721-6d81-4a28-9a75-4b13c7cd2eff")
 		(property "Reference" "A1"
-			(at 109.22 153.67 0)
+			(at 129.54 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2227,8 +2435,8 @@
 				)
 			)
 		)
-		(property "Value" "Arduino_Due_Shield"
-			(at 109.22 156.21 0)
+		(property "Value" "Arduino_Mega2560_R3_Shield"
+			(at 129.54 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2237,8 +2445,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_arduino-library:Arduino_Due_Shield"
-			(at 109.22 166.37 0)
+		(property "Footprint" "arduino-library:Arduino_Mega2560_R3_Shield"
+			(at 129.54 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,8 +2456,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.arduino.cc/hardware/due"
-			(at 109.22 162.56 0)
+		(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
+			(at 129.54 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,8 +2467,8 @@
 				)
 			)
 		)
-		(property "Description" "Shield for Arduino Due"
-			(at 109.22 92.71 0)
+		(property "Description" "Shield for Arduino Mega 2560 R3"
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,283 +2478,793 @@
 				)
 			)
 		)
-		(pin "A7"
-			(uuid "cadaf5c5-f0d8-4f6d-b251-c6cb5b8adda3")
-		)
-		(pin "5V4"
-			(uuid "cc095ed0-e0a3-4192-be3b-d6e538c1c9dd")
-		)
-		(pin "A0"
-			(uuid "1cf0a84a-d40b-4739-99dd-1ba2a0741bb7")
-		)
-		(pin "D2"
-			(uuid "d7d9ed66-5c52-4847-9a19-ef2efed52e5a")
-		)
-		(pin "3V3"
-			(uuid "05af4f0e-3db8-41a5-8962-f32745c6674c")
-		)
-		(pin "D11"
-			(uuid "6a2ae56f-d0a3-41be-8a51-a5fc1d425ca8")
-		)
-		(pin "5V1"
-			(uuid "7455a7bd-9605-4ef4-92c0-3d6080a79fe6")
-		)
-		(pin "5V3"
-			(uuid "d79359f9-97ec-43ba-b420-e751de049d14")
-		)
-		(pin "D1"
-			(uuid "9637f514-d506-4859-ac72-9546a9b4fb59")
-		)
-		(pin "A2"
-			(uuid "e794668f-0e4a-4537-8268-eadfb58d8857")
-		)
-		(pin "D3"
-			(uuid "a98e02c4-99e2-4209-bd06-aa96b837196a")
-		)
-		(pin "A5"
-			(uuid "f32a30b3-2012-4fe5-9372-0b34853a41aa")
-		)
-		(pin "AREF"
-			(uuid "c75305c7-7c3d-48d5-acd1-ed712986bb52")
-		)
-		(pin "D4"
-			(uuid "9934c2ee-7e17-4c6c-ac55-9d70ad0aa238")
-		)
-		(pin "A3"
-			(uuid "f1e32fe3-e40d-418a-8d45-18a6b8b988af")
-		)
-		(pin "A1"
-			(uuid "d8eaa4f1-9385-431b-9e57-86bf62aba199")
-		)
-		(pin "A6"
-			(uuid "467266ad-3930-4e7d-940f-19b5d804e916")
-		)
-		(pin "A8"
-			(uuid "eb748ee3-418f-4b79-8c99-9fcb7d6ceee5")
-		)
-		(pin "A9"
-			(uuid "d0d4400b-60fa-4010-9b4b-1bf606b01918")
-		)
-		(pin "5V2"
-			(uuid "e31f8076-b64a-4fff-85ac-db3e1872b5fc")
-		)
-		(pin "D0"
-			(uuid "dfacefad-6b56-4a2f-8a3a-8ec069482505")
-		)
-		(pin "A4"
-			(uuid "f56bc532-6f4f-414f-98e6-0cb87d2e0e1e")
-		)
-		(pin "A10"
-			(uuid "e2074dad-305e-4af5-88f9-197ef2b7e76b")
-		)
-		(pin "A11"
-			(uuid "8596800e-75ef-4041-8d02-fe183a6fa079")
-		)
-		(pin "CANR"
-			(uuid "44a813d1-9d61-4de7-a6ce-808d365bf65c")
-		)
-		(pin "CANT"
-			(uuid "48690a9d-aa6c-4163-ac17-a08615abcea2")
-		)
-		(pin "D5"
-			(uuid "e7bfb9ef-febe-4a0a-8456-fa1558ee9ce8")
-		)
-		(pin "D6"
-			(uuid "1ffa86c5-7968-4c33-a586-f3f4ab4f9414")
-		)
-		(pin "D7"
-			(uuid "2997f808-ee24-4640-a010-e3a205da7904")
-		)
-		(pin "D8"
-			(uuid "1b6c603f-0a6b-4c9a-ab6d-8a1e50dbb206")
-		)
-		(pin "D9"
-			(uuid "953a1800-dc6c-4db8-b2cb-625a092d9cd9")
-		)
-		(pin "D10"
-			(uuid "cc47130f-dd57-4dd8-b6c4-6aa02fed5b8b")
-		)
-		(pin "D12"
-			(uuid "87bcbd72-18ad-4c44-bd95-ca251cf37edd")
-		)
-		(pin "D13"
-			(uuid "57d01f71-7bba-4c25-a3a0-f70249533cef")
-		)
-		(pin "D14"
-			(uuid "0a393d7b-8b4a-43e8-820b-3eb27637b91d")
-		)
-		(pin "D15"
-			(uuid "1f91c27a-4a44-46e0-8940-4a7afe35cc64")
-		)
-		(pin "D48"
-			(uuid "5b8afd32-bb23-49b1-8e7f-d3da85d17237")
-		)
-		(pin "D26"
-			(uuid "929bf9f3-d5f5-481a-b2bc-f1ab433ce6b1")
-		)
-		(pin "D27"
-			(uuid "d2b3aaac-2a2e-4a5a-9332-64c0e3f2d436")
-		)
-		(pin "GND5"
-			(uuid "435304c4-1bb0-4698-8957-8d903e22a6d1")
-		)
-		(pin "D37"
-			(uuid "1a0cda6c-bc45-4f00-a9d8-e4a3e65fa0e3")
-		)
-		(pin "MOSI"
-			(uuid "ab961c01-65a2-4063-8790-0088bed0b5a7")
-		)
-		(pin "SCK"
-			(uuid "e09a3a34-168f-4470-a4e6-554e1c074438")
-		)
-		(pin "D44"
-			(uuid "3454067d-b0d7-4b76-ac03-499a2f2015d3")
+		(pin "D34"
+			(uuid "5259a7c3-c8c4-4eba-9bf8-3fb327b4116a")
 		)
 		(pin "D49"
-			(uuid "ecc7fffd-e76c-4244-9976-2e8c82eb16b7")
-		)
-		(pin "RST2"
-			(uuid "49966542-e8f1-4daf-a501-504c11dd2b0a")
-		)
-		(pin "D20"
-			(uuid "f55ad036-d307-49cb-be7d-8d9a4fb8b705")
-		)
-		(pin "D23"
-			(uuid "109cbba9-56b5-4f70-8401-ff19abd46c24")
-		)
-		(pin "D31"
-			(uuid "c1945c30-318f-4e78-9df9-4cb2b0572205")
-		)
-		(pin "D50"
-			(uuid "38ab6b06-9753-4a42-bbf7-e0ca2d6d4468")
-		)
-		(pin "D51"
-			(uuid "fe7818ae-5ca0-4a2e-8c61-8b593fdca1ae")
-		)
-		(pin "D36"
-			(uuid "7a9c89c6-767b-4b06-975a-97808650c60e")
-		)
-		(pin "D53"
-			(uuid "6c533810-7228-4749-83f0-57d1b2499237")
-		)
-		(pin "D47"
-			(uuid "c85ec305-736d-4b14-8fe5-613564a210ba")
-		)
-		(pin "D35"
-			(uuid "0204bdef-a05d-4a8d-bb4a-3b0552891c03")
-		)
-		(pin "D39"
-			(uuid "7bd3aa38-8b0e-4fdc-8b78-e62a97607f76")
-		)
-		(pin "DAC1"
-			(uuid "b4143bb9-eb59-4f6c-a11f-7aa534db653a")
-		)
-		(pin "GND6"
-			(uuid "a0063553-73ae-41d5-9c8b-6c4ccf2bf371")
-		)
-		(pin "D21"
-			(uuid "35e66f1c-dafe-42f1-ba7d-91d1b0601112")
-		)
-		(pin "D28"
-			(uuid "0037f522-b92b-4862-8306-5ed8f7037146")
-		)
-		(pin "D19"
-			(uuid "d9ebd03e-7171-4177-9753-4c38fc7e1f62")
-		)
-		(pin "D18"
-			(uuid "6548370e-7bb7-4325-9287-173c68c11239")
-		)
-		(pin "D16"
-			(uuid "05f05340-4ad8-4815-b281-db662adc45ad")
-		)
-		(pin "D30"
-			(uuid "3d1ac1f6-eafc-4cad-b480-00396707dd92")
-		)
-		(pin "D22"
-			(uuid "67fb51dd-8558-4be4-8445-63ce0db9e561")
-		)
-		(pin "D24"
-			(uuid "a8052e34-97dd-4f32-8f75-4ee4f5d8befc")
-		)
-		(pin "D32"
-			(uuid "e179870a-4ffb-4b1e-9c9b-d105c6b3dd3b")
-		)
-		(pin "D34"
-			(uuid "5cae93b7-672b-4ef9-92c5-004ff84f5ee3")
-		)
-		(pin "D40"
-			(uuid "f993c5b4-c430-4b31-a5ff-dbd6d4573add")
+			(uuid "6033ec6e-ff7f-4d26-9b75-f9d75f3c9e4b")
 		)
 		(pin "D41"
-			(uuid "0d22e40b-ceab-4439-a74a-7b199b0ce5a4")
+			(uuid "db5f15a6-4669-4d8a-aef2-b4863a656de4")
 		)
-		(pin "D42"
-			(uuid "a6c64f6b-6e02-4033-b880-57d58b12c1a2")
+		(pin "D32"
+			(uuid "ca7f192b-c31b-4de3-aae0-ec9a915f361e")
 		)
-		(pin "D45"
-			(uuid "d29d8042-492c-49e2-bf30-eb7854615a15")
+		(pin "D31"
+			(uuid "4a324fc8-58a1-4637-b823-c420979838d2")
 		)
-		(pin "D25"
-			(uuid "4ae114fe-9d10-4b50-aa86-3c235ae0529c")
+		(pin "D26"
+			(uuid "6e1592fb-565f-4dfb-9d76-71adba8b1cdf")
 		)
-		(pin "D38"
-			(uuid "3de59e01-4173-433f-8333-5353f57126ea")
-		)
-		(pin "D33"
-			(uuid "e708d1fa-cd33-44c9-9f7c-2c7b5f6afaea")
-		)
-		(pin "D17"
-			(uuid "627f55ae-c4e8-4530-a9d7-6103d385432e")
+		(pin "D30"
+			(uuid "d6a42a7c-dd67-4d05-84a7-fd5bc3995f92")
 		)
 		(pin "D43"
-			(uuid "d17f6129-8642-4d3c-ad1a-c5329a48b7b4")
+			(uuid "c0f34b35-72eb-4bc6-82e3-946944b241f5")
+		)
+		(pin "D25"
+			(uuid "ddc726a0-80c9-495c-8c60-6f39ab08ee1c")
+		)
+		(pin "D37"
+			(uuid "4fdbce69-e869-4d98-8343-e5d035cf9d0d")
+		)
+		(pin "D39"
+			(uuid "99be8a97-b11c-4f94-b172-17e9943901d3")
+		)
+		(pin "D40"
+			(uuid "f1fb515e-8890-4ebb-9238-f328723f10a6")
+		)
+		(pin "D28"
+			(uuid "e3c0bb06-1593-4a26-ae30-cbadaee23ee0")
+		)
+		(pin "D44"
+			(uuid "76f17144-a9a1-4227-99bd-7ab14c5a9cfa")
 		)
 		(pin "D46"
-			(uuid "f5b4cd93-68a4-4968-b169-cb698ac19c0c")
+			(uuid "4b08d35a-76e6-4826-affe-8fab39cd29f2")
 		)
-		(pin "D52"
-			(uuid "37fcaae4-1595-4a22-b313-93671eb785dc")
+		(pin "D48"
+			(uuid "6d291a4a-af06-4220-9b68-e79180204739")
 		)
-		(pin "DAC0"
-			(uuid "f02c8b36-a2bc-404d-af6c-736a598ec2c6")
+		(pin "D27"
+			(uuid "71bf6629-0e27-4487-ba62-4094776e7d0b")
+		)
+		(pin "D35"
+			(uuid "f052ff74-1ef0-40d2-aec0-4d27925218a3")
+		)
+		(pin "D50"
+			(uuid "d15c25bf-6603-4659-b01c-cef9caf86cf3")
+		)
+		(pin "D42"
+			(uuid "b85cf0ec-4900-44d6-a613-8e1513c189eb")
+		)
+		(pin "D51"
+			(uuid "471e58fc-03c1-4146-9476-063a55b5d74c")
+		)
+		(pin "D45"
+			(uuid "53213677-eec9-49a9-82f2-6e5fe31ae94d")
+		)
+		(pin "D47"
+			(uuid "318d5cc2-3024-4167-b49b-09760ab01cf9")
+		)
+		(pin "D38"
+			(uuid "c5b65f59-bc83-4821-8aaa-8aa464948de5")
 		)
 		(pin "D29"
-			(uuid "3f3a1728-60fb-4bfe-842e-04efe19ce8fb")
+			(uuid "9bb91d0a-fc5a-4c46-b6dd-e5d1809a027c")
+		)
+		(pin "D24"
+			(uuid "bb5112d5-c28c-433b-bdb6-77629b5b1911")
+		)
+		(pin "D33"
+			(uuid "ef05d86a-d1be-45d8-96e2-605b4c4d2f71")
+		)
+		(pin "D36"
+			(uuid "a1b289bf-7097-47cf-ba8b-9733292bc205")
+		)
+		(pin "D52"
+			(uuid "0837d62a-8319-4958-b965-2b1a5f56c24a")
+		)
+		(pin "D53"
+			(uuid "b0f9005e-cd03-4e3d-8513-712000f09ddf")
 		)
 		(pin "GND1"
-			(uuid "ddb2e1ce-b713-43eb-8107-ee2e2ee9fb3a")
+			(uuid "41951b5a-3a73-4c87-896b-0b51b2073c81")
 		)
 		(pin "GND2"
-			(uuid "f8def15c-70cc-48f5-9fbc-833277334e32")
+			(uuid "dea5d3cd-e499-468d-b528-9ec005879339")
 		)
 		(pin "GND3"
-			(uuid "58302b6a-0a3b-4a6b-a80d-b1d0c98cbe3f")
+			(uuid "ad183db7-1323-4370-9768-91d71124b5f8")
 		)
 		(pin "GND4"
-			(uuid "c91524ad-56ff-4ef9-979b-74fe4f98a5ae")
+			(uuid "6a44b800-da1e-43a3-877c-af698a3e9294")
 		)
-		(pin "IORF"
-			(uuid "b13c550e-c16f-4b8b-b5c4-1cb7cc471214")
+		(pin "GND5"
+			(uuid "b6784015-49ae-41bd-91ea-8611fffa085b")
 		)
 		(pin "MISO"
-			(uuid "b314b6d6-fd67-4ccc-84e2-49118a4233e4")
+			(uuid "80983a86-eb8b-41ec-bdb5-039fb9cfcf7f")
+		)
+		(pin "MOSI"
+			(uuid "787de377-9d21-462e-a191-31a52e25e558")
 		)
 		(pin "RST1"
-			(uuid "c8cd415f-9cf7-4a98-a74a-5428b1539fc7")
+			(uuid "f6d10481-b260-43d0-95f5-cf3aa1fd8b12")
 		)
-		(pin "SCL1"
-			(uuid "19ec5eae-7666-432d-9957-66827564a12a")
+		(pin "RST2"
+			(uuid "3cb6adc4-8e6e-4289-ad67-08930e99a740")
 		)
-		(pin "SDA1"
-			(uuid "077d0162-a776-4754-a0aa-580faacdf8d7")
+		(pin "GND6"
+			(uuid "f0bad8ef-48cf-484d-a994-07c2c5244188")
+		)
+		(pin "SCK"
+			(uuid "0d2001b1-6915-4295-84b2-030f644ccfaa")
+		)
+		(pin "IORF"
+			(uuid "5e435c20-a783-428b-9a8c-dd26423e91ce")
+		)
+		(pin "SDA"
+			(uuid "f4b994b2-2363-4776-b453-6799b74bbd81")
+		)
+		(pin "SCL"
+			(uuid "182653eb-0f05-4d47-9fc5-5799790823bb")
 		)
 		(pin "VIN"
-			(uuid "bbc957e7-0e70-4014-9b08-30f654d1920f")
+			(uuid "b61907c1-f8d8-43c1-a214-6ae98023a4a3")
+		)
+		(pin "A4"
+			(uuid "91a78133-9a06-40c1-ad5c-6df1f41d1bef")
+		)
+		(pin "D3"
+			(uuid "70f62c8a-33ae-4eae-883a-c05f11f1c093")
+		)
+		(pin "A9"
+			(uuid "f8401cb5-f3a9-4354-96ef-3345274b2455")
+		)
+		(pin "5V4"
+			(uuid "377494b2-3c7f-4022-ad70-20306b02e015")
+		)
+		(pin "D0"
+			(uuid "6b3833c7-d0ea-41a6-8744-3738edac87d2")
+		)
+		(pin "D1"
+			(uuid "cd006e15-815f-484c-82fe-baf8c0a469a5")
+		)
+		(pin "A1"
+			(uuid "cc09fa31-d44e-4e7e-a70d-3a1a5f6fbe0e")
+		)
+		(pin "A15"
+			(uuid "8ace1e86-b208-4779-af95-5e9772faa115")
+		)
+		(pin "A0"
+			(uuid "b21a81de-9a2f-4563-a9ea-69d77ab9d6b1")
+		)
+		(pin "5V3"
+			(uuid "886f21db-a9e7-4d59-991b-42e18a5d6556")
+		)
+		(pin "A3"
+			(uuid "82a1ac6e-a526-4780-9f78-5d567ceaafb2")
+		)
+		(pin "3V3"
+			(uuid "00d99f6c-0cc6-4288-aebf-f533362d8cc9")
+		)
+		(pin "5V1"
+			(uuid "da3fb8d5-5c7b-4d27-a33f-e6d0f4f17113")
+		)
+		(pin "A2"
+			(uuid "005ce56f-13f1-42c4-846b-2ab2b4a175d2")
+		)
+		(pin "A5"
+			(uuid "74b70c43-a3c0-4921-a120-abf6c7183147")
+		)
+		(pin "A7"
+			(uuid "32aff020-ccce-4b4f-8bec-26302417a3d7")
+		)
+		(pin "A8"
+			(uuid "9f9007ca-5506-4080-80ef-b8c3bb747894")
+		)
+		(pin "A11"
+			(uuid "3f75dbb3-ca19-4875-90e6-dee156c0a17f")
+		)
+		(pin "A12"
+			(uuid "ed178242-965b-48fd-aa3f-9c77c10bfaa8")
+		)
+		(pin "5V2"
+			(uuid "a782643a-6df1-4513-8fe5-b20aea1604d5")
+		)
+		(pin "A6"
+			(uuid "4501103c-6966-42bb-abe2-a5cf84561bfa")
+		)
+		(pin "A10"
+			(uuid "041f61a8-d5cf-4d42-96c4-5da047f714f3")
+		)
+		(pin "A13"
+			(uuid "7e67d20b-bd85-42e5-adc8-e311b27cc8e5")
+		)
+		(pin "A14"
+			(uuid "d48348d6-2c94-44be-8625-ea6be68ce956")
+		)
+		(pin "AREF"
+			(uuid "b8b32eda-8be3-4ce9-9c78-034a68a91c4b")
+		)
+		(pin "D2"
+			(uuid "cd8d269d-97d4-4fea-a064-07f71d09754a")
+		)
+		(pin "D4"
+			(uuid "f482ae17-8727-4169-88a5-d41f568c28b0")
+		)
+		(pin "D6"
+			(uuid "2ef7c62a-691a-49b8-81d9-29f0c2d394ee")
+		)
+		(pin "D7"
+			(uuid "e84eba34-55c9-4328-b3e0-bbe4d6fbf50e")
+		)
+		(pin "D8"
+			(uuid "5692d257-5de3-4869-94f8-55b8b801bbdc")
+		)
+		(pin "D5"
+			(uuid "ca50997b-5378-4394-9c97-77f688e1eff1")
+		)
+		(pin "D9"
+			(uuid "d35b1976-d9e5-41d6-8ed6-c28417c2d12e")
+		)
+		(pin "D10"
+			(uuid "de7460dd-eee7-4068-bda8-61d7e6f5c5d4")
+		)
+		(pin "D11"
+			(uuid "1a517cab-6adb-4772-86f5-bcae1a8968a9")
+		)
+		(pin "D12"
+			(uuid "80572f8b-a6d9-4254-827c-67d99ab63fdd")
+		)
+		(pin "D15"
+			(uuid "4111013f-6782-4676-b9a5-636e34776ec1")
+		)
+		(pin "D19"
+			(uuid "9c58a693-63f1-44f4-aee4-e58da9360b17")
+		)
+		(pin "D20"
+			(uuid "18b7433b-0bf0-4163-8fe0-f46e19c98e3c")
+		)
+		(pin "D13"
+			(uuid "8d4a7a10-8a37-43f2-b3ed-2dbfe50c78f3")
+		)
+		(pin "D14"
+			(uuid "cada3a66-1b8c-4016-b7ef-b01f41fca4cd")
+		)
+		(pin "D16"
+			(uuid "19e25068-62e8-45e4-a49f-a043cdedb058")
+		)
+		(pin "D18"
+			(uuid "93494ed7-de8d-493b-94d5-9ce8111ea7ce")
+		)
+		(pin "D21"
+			(uuid "8a6e6b78-8b62-4032-b5b1-6d4fe497042d")
+		)
+		(pin "D17"
+			(uuid "f387f42f-ecc9-4cc6-b363-d2e12262171c")
+		)
+		(pin "D22"
+			(uuid "e4d766c3-c502-41ad-8470-cd53c887b26d")
+		)
+		(pin "D23"
+			(uuid "265fd991-ec5e-432f-a628-d992b6780934")
 		)
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 54.6661 69.0266 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c9cba9b-cb39-483d-8b28-c2199c4eb26d")
+		(property "Reference" "J2"
+			(at 53.3961 67.7565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 53.3961 70.2965 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 54.6661 69.0266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.6661 69.0266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 54.6661 69.0266 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "793efe43-87ee-443e-9039-97e0e7788468")
+		)
+		(pin "1"
+			(uuid "ffea609c-eb00-4868-a70f-52a81ddf012d")
+		)
+		(pin "2"
+			(uuid "36b80ca4-94c6-4a83-a998-c8735f35b32d")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 56.3345 114.6284 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c43ac10-eb50-4b3c-84a7-5a1b30f14cb7")
+		(property "Reference" "J6"
+			(at 55.0645 113.3583 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 55.0645 115.8983 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 56.3345 114.6284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.3345 114.6284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 56.3345 114.6284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a6d62506-e328-4e2b-9212-67871fe396e9")
+		)
+		(pin "1"
+			(uuid "95623cc1-7be2-4e60-8fb9-0ab36a863bbe")
+		)
+		(pin "2"
+			(uuid "a4e8191c-673a-4654-ab51-4a902f13b391")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 54.8052 80.149 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c090ad2-61b5-435c-8458-0f316dfed50d")
+		(property "Reference" "J3"
+			(at 53.5352 78.8789 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 53.5352 81.4189 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 54.8052 80.149 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.8052 80.149 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 54.8052 80.149 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1442b72b-c573-41d8-ad49-1eda9ab88600")
+		)
+		(pin "1"
+			(uuid "8d57c896-dd08-4426-a49b-98e6cc1a2557")
+		)
+		(pin "2"
+			(uuid "aa361ffb-0e37-4774-8c36-4b2e1cf3d686")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 56.0564 102.9499 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efc80313-bfd3-4d72-aecc-55db91fb3e36")
+		(property "Reference" "J5"
+			(at 54.7864 101.6798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 54.7864 104.2198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 56.0564 102.9499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.0564 102.9499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 56.0564 102.9499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "af253463-df49-48ba-bf2a-60820d67c2d1")
+		)
+		(pin "1"
+			(uuid "0645e059-fa67-41df-aec7-cf9d7e2480ad")
+		)
+		(pin "2"
+			(uuid "46827c9f-a478-4792-a200-33cf20f14d13")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 55.2223 92.1056 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f15b2886-5255-4663-aada-9690a44caa4d")
+		(property "Reference" "J4"
+			(at 53.9523 90.8355 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 53.9523 93.3755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 55.2223 92.1056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.2223 92.1056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 55.2223 92.1056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3258d86c-9435-4c91-8c7e-bdd3326eb759")
+		)
+		(pin "1"
+			(uuid "d68afe8d-c993-452c-b23d-14a4a91d1593")
+		)
+		(pin "2"
+			(uuid "df6745ff-7a6d-48fa-aecd-67f37fe5fb09")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 54.61 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f71e45ab-ad6c-4c74-8c57-dc5534f6b418")
+		(property "Reference" "J1"
+			(at 53.34 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 53.34 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1ee589fc-4e55-4fec-b695-5be286d6b579")
+		)
+		(pin "1"
+			(uuid "3c3b149e-4b51-4dc0-84d9-02478b6ad119")
+		)
+		(pin "2"
+			(uuid "02616225-b5fc-4432-b547-1a54a05a934a")
+		)
+		(instances
+			(project "pcb-v1"
+				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
+					(reference "J1")
 					(unit 1)
 				)
 			)
