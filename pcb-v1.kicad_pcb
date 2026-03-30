@@ -3134,7 +3134,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8f5045b9-403f-4202-bcb0-36a9c83b8de4")
-		(at 109.4 158.394)
+		(at 110 127.59)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J7"
@@ -7516,7 +7516,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e6cddebe-1504-4d9f-ac09-66410bff4ef3")
-		(at 105.04 135.03)
+		(at 110.5 163.38)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J8"
@@ -8835,8 +8835,8 @@
 		(uuid "4808bb76-534a-4431-8fd4-a45c28a66714")
 	)
 	(gr_rect
-		(start 81.64 153.944)
-		(end 111.64 178.944)
+		(start 77.13 154.03)
+		(end 112.11 181.26)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -8846,8 +8846,8 @@
 		(uuid "c5210d35-c1ea-41ba-aaa8-56bc6aa75656")
 	)
 	(gr_rect
-		(start 81.75 129.52)
-		(end 106.75 149.52)
+		(start 98 146.58)
+		(end 112.18 126.42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -8857,7 +8857,7 @@
 		(uuid "b88de98c-d802-47c7-a422-cc1ad6d197e2")
 	)
 	(gr_rect
-		(start 129.25 84.37)
+		(start 126 85.5)
 		(end 154.25 99.37)
 		(stroke
 			(width 0.1)
@@ -8866,61 +8866,6 @@
 		(fill no)
 		(layer "User.1")
 		(uuid "f008e5fb-e611-403b-ae53-922778b261ba")
-	)
-	(gr_rect
-		(start 129.25 100.15)
-		(end 154.25 115.15)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "2ad4b42f-cf03-41a7-aaed-46bdff86e923")
-	)
-	(gr_rect
-		(start 129.25 115.93)
-		(end 154.25 130.93)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "8c2487a9-4262-4f9f-b175-8747c672ee80")
-	)
-	(gr_rect
-		(start 129.25 131.71)
-		(end 154.25 146.71)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "916e6ba7-9023-4e55-8009-01296f1b12e2")
-	)
-	(gr_rect
-		(start 129.25 147.49)
-		(end 154.25 162.49)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "6829f7a8-f2cc-491e-9833-4640d39be435")
-	)
-	(gr_rect
-		(start 129.25 163.27)
-		(end 154.25 178.27)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "9a661046-9a54-4603-b252-cdba81882945")
 	)
 	(gr_rect
 		(start 162.52 18.88944)
@@ -8933,8 +8878,20 @@
 		(layer "User.1")
 		(uuid "8b937a52-ca78-474a-8f70-9e77aa2cee75")
 	)
+	(gr_text "Accerelator"
+		(at 105.3 144.61 90)
+		(layer "User.1")
+		(uuid "3de69fe3-9d1d-4850-bd3a-1bda512c6187")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "voltage sensor"
-		(at 131.15 91.87 0)
+		(at 129.8 93.2 0)
 		(layer "User.1")
 		(uuid "445cf5ca-5192-451f-a95d-3d8ad34b3704")
 		(effects
@@ -8945,80 +8902,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "voltage sensor"
-		(at 131.15 107.65 0)
-		(layer "User.1")
-		(uuid "a8e2beb0-efb2-454a-9889-25d049f9d8da")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "voltage sensor"
-		(at 131.15 123.43 0)
-		(layer "User.1")
-		(uuid "cf8496c2-8fea-40ae-afac-a23101119a33")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "voltage sensor"
-		(at 131.15 139.21 0)
-		(layer "User.1")
-		(uuid "aaaf84f7-9345-4524-b3ca-0763d5d35909")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "voltage sensor"
-		(at 131.15 154.99 0)
-		(layer "User.1")
-		(uuid "cbb6dacd-250a-40c7-86b9-f24e084c8672")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "voltage sensor"
-		(at 131.15 170.77 0)
-		(layer "User.1")
-		(uuid "f3633f23-b6b7-4d05-a67e-35733883ef96")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Accerelator"
-		(at 81.75 140.77 0)
-		(layer "User.1")
-		(uuid "3de69fe3-9d1d-4850-bd3a-1bda512c6187")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.4)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "GPS Module"
-		(at 83.74 167.144 0)
+		(at 80.81 168.86 0)
 		(layer "User.1")
 		(uuid "befe445e-9eb7-43ca-a6f4-29b50f626e70")
 		(effects
@@ -9068,36 +8953,12 @@
 		)
 	)
 	(group ""
-		(uuid "0baedf4e-14ad-4c3b-bd60-3b74ad3b72c5")
-		(members "9a661046-9a54-4603-b252-cdba81882945" "f3633f23-b6b7-4d05-a67e-35733883ef96")
-	)
-	(group ""
-		(uuid "14d9a60d-0a05-4cb4-b490-bb4897924aa4")
+		(uuid "3baf82a4-a9ad-420c-8d23-6297e993ab7b")
 		(members "befe445e-9eb7-43ca-a6f4-29b50f626e70" "c5210d35-c1ea-41ba-aaa8-56bc6aa75656")
 	)
 	(group ""
-		(uuid "529f717d-2a05-4e54-a754-68a7039a9c19")
-		(members "3de69fe3-9d1d-4850-bd3a-1bda512c6187" "b88de98c-d802-47c7-a422-cc1ad6d197e2")
-	)
-	(group ""
-		(uuid "6451d39f-6c83-45a7-a904-3a1e5f6914dc")
-		(members "2ad4b42f-cf03-41a7-aaed-46bdff86e923" "a8e2beb0-efb2-454a-9889-25d049f9d8da")
-	)
-	(group ""
-		(uuid "76177b96-72d2-4eb5-85ed-4bf8841889d9")
-		(members "8c2487a9-4262-4f9f-b175-8747c672ee80" "cf8496c2-8fea-40ae-afac-a23101119a33")
-	)
-	(group ""
-		(uuid "81f09be8-d869-4257-95dd-71110066c123")
-		(members "6829f7a8-f2cc-491e-9833-4640d39be435" "cbb6dacd-250a-40c7-86b9-f24e084c8672")
-	)
-	(group ""
-		(uuid "d87f86a9-f1ad-49b5-8076-5ad198f50dc8")
+		(uuid "aac24cb4-1343-4ff5-a1fd-360a17797b50")
 		(members "445cf5ca-5192-451f-a95d-3d8ad34b3704" "f008e5fb-e611-403b-ae53-922778b261ba")
-	)
-	(group ""
-		(uuid "e975045e-5a5e-4841-901a-0d3ab461f809")
-		(members "916e6ba7-9023-4e55-8009-01296f1b12e2" "aaaf84f7-9345-4524-b3ca-0763d5d35909")
 	)
 	(embedded_fonts no)
 )
