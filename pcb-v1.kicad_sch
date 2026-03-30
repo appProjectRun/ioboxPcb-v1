@@ -5236,10 +5236,6 @@
 		(uuid "7cf2acf1-a05f-4169-9c19-374c55611e6c")
 	)
 	(no_connect
-		(at 160.02 27.94)
-		(uuid "823ecaec-7b02-425b-aafb-2f4797f902f3")
-	)
-	(no_connect
 		(at 189.23 44.45)
 		(uuid "848c17da-8778-4808-9d80-9e77b33cf9ce")
 	)
@@ -5698,6 +5694,16 @@
 			(type default)
 		)
 		(uuid "418de721-9e3a-4f94-833e-2bc1b728dfb9")
+	)
+	(wire
+		(pts
+			(xy 160.02 24.13) (xy 160.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da855d1-a467-46d4-a90c-d4a7e10ab742")
 	)
 	(wire
 		(pts
@@ -6408,6 +6414,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b7d4195-1274-4257-8678-66ae750f7a15")
+	)
+	(label "5VDC"
+		(at 160.02 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47ff0801-6b7d-47ae-8b16-7b05e50741b1")
 	)
 	(label "5VDC"
 		(at 95.25 147.32 0)
