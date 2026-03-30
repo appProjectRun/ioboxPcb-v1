@@ -8823,19 +8823,8 @@
 		)
 	)
 	(gr_rect
-		(start 55 12)
-		(end 252 193.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "7abd50de-daff-492d-ae03-2f6a73457063")
-	)
-	(gr_rect
-		(start 67 91.27)
-		(end 117 17.77)
+		(start 67 17.77)
+		(end 117 91.27)
 		(radius 2)
 		(stroke
 			(width 0.1)
