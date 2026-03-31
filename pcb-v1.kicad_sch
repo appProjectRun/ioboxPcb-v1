@@ -4779,7 +4779,7 @@
 		)
 		(uuid "8f9acde2-874d-4d2f-981a-15bdcd212bb2")
 	)
-	(text "7-8V"
+	(text "8V"
 		(exclude_from_sim no)
 		(at 227.838 85.09 0)
 		(effects
@@ -6650,6 +6650,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 127 186.6899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6726,6 +6727,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 144.78 186.6899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8079,7 +8081,7 @@
 				)
 			)
 		)
-		(property "for equipment?" "Power 7-8V From Step Down"
+		(property "for equipment?" "Power 8V From Step Down"
 			(at 249.428 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,6 +8293,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 128.27 193.0399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8635,6 +8638,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 146.05 193.0399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8711,6 +8715,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 110.048 186.4989 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9187,6 +9192,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 110.6208 192.4183 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9407,7 +9413,7 @@
 				)
 			)
 		)
-		(property "for equipment?" "Voltage Sensor"
+		(property "for equipment?" "Belt"
 			(at 63.881 43.307 0)
 			(show_name no)
 			(do_not_autoplace no)
