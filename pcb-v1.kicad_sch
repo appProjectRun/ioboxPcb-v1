@@ -6637,7 +6637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b55e251-e7c0-4495-bdfa-c110bccce973")
-		(property "Reference" "H11"
+		(property "Reference" "H3"
 			(at 127 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +6695,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H11")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6713,7 +6713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cb3d545-de92-4592-bd10-212798910056")
-		(property "Reference" "H13"
+		(property "Reference" "H5"
 			(at 144.78 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +6771,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H13")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7456,82 +7456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bc9f334-480b-4e29-876a-fee1fa52e412")
-		(property "Reference" "H3"
-			(at 68.58 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 68.58 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 66.04 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 66.04 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 85.09 52.07 0)
 		(mirror y)
@@ -7658,7 +7582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical"
 			(at 43.18 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7824,82 +7748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 84.6461 191.6745 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60f365ef-3204-497f-9bbb-5a8da570c3e1")
-		(property "Reference" "H8"
-			(at 87.1861 190.4044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 87.1861 192.9444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 84.6461 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 84.6461 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 84.6461 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 85.09 64.77 0)
 		(mirror y)
@@ -7995,82 +7843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 28.1074 192.3153 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7aab17b1-f280-4c82-a13d-624d4423a1fb")
-		(property "Reference" "H5"
-			(at 30.6474 191.0452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 30.6474 193.5852 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 28.1074 192.3153 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 28.1074 192.3153 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 28.1074 192.3153 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 222.25 139.7 0)
 		(unit 1)
@@ -8101,7 +7873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock-bornier:TerminalBlock_bornier-4_P5.08mm"
 			(at 222.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8160,158 +7932,6 @@
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 46.9774 191.9593 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87d42079-8155-4399-af9a-734a500de044")
-		(property "Reference" "H6"
-			(at 49.5174 190.6892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 49.5174 193.2292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 46.9774 191.9593 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.9774 191.9593 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 46.9774 191.9593 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 46.9062 185.2658 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bf629b6-8abc-4d1e-ae5d-de5281a2b8e6")
-		(property "Reference" "H2"
-			(at 49.4462 183.9957 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 49.4462 186.5357 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 46.9062 185.2658 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.9062 185.2658 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 46.9062 185.2658 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock-bornier:TerminalBlock_bornier-4_P5.08mm"
 			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8648,158 +8268,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 27.94 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a88dda3d-7026-48b4-841c-4c59d9dc0a6b")
-		(property "Reference" "H1"
-			(at 30.48 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 30.48 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 27.94 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 27.94 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 84.2189 185.4794 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b167e65a-8801-4fec-8b06-59731bb0a10d")
-		(property "Reference" "H4"
-			(at 86.7589 184.2093 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 86.7589 186.7493 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 84.2189 185.4794 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 84.2189 185.4794 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 84.2189 185.4794 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 125.73 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -8810,7 +8278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba92194d-36fc-425d-ba00-e5cda8d115a2")
-		(property "Reference" "H12"
+		(property "Reference" "H4"
 			(at 128.27 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8336,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H12")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8905,7 +8373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock-bornier:TerminalBlock_bornier-4_P5.08mm"
 			(at 222.25 127 0)
 			(hide yes)
 			(show_name no)
@@ -9000,7 +8468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock-bornier:TerminalBlock_bornier-4_P5.08mm"
 			(at 222.25 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9144,158 +8612,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 160.02 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d38c025a-b530-48e3-9345-c3e435b16295")
-		(property "Reference" "H16"
-			(at 162.56 190.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 162.56 193.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm"
-			(at 160.02 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 160.02 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.6307 191.6745 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7a905f1-6749-49dc-8664-2385e4104e14")
-		(property "Reference" "H7"
-			(at 69.1707 190.4044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 69.1707 192.9444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 66.6307 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.6307 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 66.6307 191.6745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 143.51 191.77 0)
 		(unit 1)
 		(body_style 1)
@@ -9306,7 +8622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8bb655f-a834-4301-85d4-e5eff4a6d673")
-		(property "Reference" "H14"
+		(property "Reference" "H6"
 			(at 146.05 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9364,7 +8680,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H14")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -9382,7 +8698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e180c9b1-9bcb-4e08-87a1-5db23f50ae41")
-		(property "Reference" "H9"
+		(property "Reference" "H1"
 			(at 110.048 183.9589 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +8756,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H9")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9478,7 +8794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41792-0006_1x06_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5267-06A_1x06_P2.50mm_Vertical"
 			(at 220.98 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9543,82 +8859,6 @@
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 158.75 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6371317-ce94-4124-9922-bf0751e51a95")
-		(property "Reference" "H15"
-			(at 161.29 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 161.29 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm"
-			(at 158.75 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 158.75 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "pcb-v1"
-				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -9934,7 +9174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1db10ce-745e-45be-b9d5-1fee86202247")
-		(property "Reference" "H10"
+		(property "Reference" "H2"
 			(at 110.6208 189.8783 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +9232,7 @@
 		(instances
 			(project "pcb-v1"
 				(path "/b6082aae-3714-48a3-bde4-e1434f78a1d5"
-					(reference "H10")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10030,7 +9270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-6-5.08_1x06_P5.08mm_Horizontal"
+		(property "Footprint" "TerminalBlock-bornier:TerminalBlock_bornier-6_P5.08mm"
 			(at 29.21 87.63 0)
 			(hide yes)
 			(show_name no)
